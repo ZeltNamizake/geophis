@@ -1,0 +1,15 @@
+{
+  "name": "geophis",
+  "version": "1.0.0",
+  "main": "geophis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Driyasx (ZeltNamizake)",
+  "license": "ISC",
+  "description": "Geolocation Phising via Nodejs HTTP Server",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.5.1"
+  }
+}

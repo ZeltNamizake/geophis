@@ -190,7 +190,7 @@ function forwardHTTPServer(services, port) {
                                     "[+] Success add authentication token, please restart script."
                                 );
                                 resolve(true);
-                                readline.close();
+                                process.exit(0)
                             } catch (e) {
                                 console.log(
                                     "[!] Failed add authentication token"
